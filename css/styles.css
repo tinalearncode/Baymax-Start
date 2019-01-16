@@ -1,0 +1,134 @@
+body {
+    font-family: 'Montserrat:Black', sans-serif;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+#title{
+  background-color: #c12529;
+  background-image:url('../images/baymax.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+/* .title-img{
+  position: absolute;
+  top: 30%;
+  right:-20%;
+  transform: rotate(-5deg);
+  text-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  z-index: 1;
+} */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.img-brand {
+  width:30%;
+  margin:0;
+  padding:0;
+}
+
+h1{
+  font-family: 'Montserrat:Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: 'Montserrat:', sans-serif;
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family:  'Montserrat:Light', sans-serif;
+}
+
+/* Dowload Buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+
+#features {
+  background-color: #fff;
+}
+
+.features-container {
+  padding: 10%  14%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.features-item {
+  padding: 2rem;
+}
+
+.features-icon {
+  font-size: 4.5rem;
+  color: #bf2d31;
+  margin-bottom: 1.5rem;
+}
+
+.features-icon:hover {
+  color: #fb7c7f;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #bf2d31;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 30%;
+  border-radius: 50%;
+  margin : 10% 0;
+}
+
+.carousel-item {
+  padding: 15% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 10%;
+  text-align: center;
+}
+
+.pricing-card {
+  padding:3% 2%;
+}
